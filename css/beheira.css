@@ -122,7 +122,20 @@ footer {
     border-width: 2px;
     background-color: rgb(245, 214, 167);
     padding: 0 5px;
-    ;
+
+    /*شوف شرح دول*/
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
+/*شوف شرح دول*/
+.search.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
 }
 
 .search1 {
@@ -165,6 +178,13 @@ footer {
 
     .search {
         font-size: 15px;
+        padding: 5px;
+    }
+
+    .search1 {
+        font-size: 15px;
+        padding: 6px 10px;
+        max-width: 170px;
     }
 
     .bord {
