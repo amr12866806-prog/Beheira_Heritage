@@ -157,9 +157,18 @@ padding : 0 5px; ;
         font-size: 14px;
     }
 
+  @media (max-width: 600px) {
     .search {
         font-size: 15px;
+        padding: 5px;
     }
+
+    .search1 {
+        font-size: 15px;
+        padding: 6px 10px;
+        max-width: 170px;
+    }
+}
 
     .bord {
         flex-direction: column;
