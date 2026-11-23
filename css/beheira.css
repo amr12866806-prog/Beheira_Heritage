@@ -111,6 +111,11 @@ footer {
     padding: 12px;
 }
 
+.kk p {
+    height: 70px;
+    overflow: auto;
+}
+
 .search {
     position: fixed;
     left: 10px;
