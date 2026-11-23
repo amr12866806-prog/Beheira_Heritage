@@ -9,6 +9,7 @@ body {
     background-color: rgb(230, 230, 229);
     width: 80px;
     height: 80px;
+    max-width: 100px;
 }
 
 .ti { 
