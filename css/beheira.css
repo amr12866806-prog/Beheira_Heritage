@@ -11,7 +11,6 @@ header.head {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../Img/header.jpeg");
     background-size: cover;
     background-position: center;
-    padding: 120px 20px 10px;
     font-size: 20px;
 }
 
@@ -115,19 +114,20 @@ footer {
 position: fixed;
 left: 10px;
 top: 10px;
-padding: 10px;
 font-size: 30px;
 border-radius: 10px;
 background-color: aliceblue;
 border-style:solid;
 border-width:2px;
 background-color: rgb(245, 214, 167) ;
+padding : 0 5px; ;
 }
 .search1{
     padding: 10px;
     font-size: 20px;
     border-radius: 10px;
     box-sizing: border-box;
+    margin-bottom:10px ;
 }
 @media (max-width: 600px) {
     header.head h1 {
