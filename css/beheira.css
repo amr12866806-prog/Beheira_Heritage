@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Cairo', sans-serif;
-
+    background-color: rgb(236, 170, 83);
 
 }
 
@@ -12,7 +12,6 @@ header.head {
     background-position: center;
     padding: 10px 20px;
     font-size: 20px;
-
 }
 
 .color {
@@ -45,6 +44,7 @@ header img {
     margin: 20px auto;
     padding: 18px 24px;
     box-shadow: 0 8px 20px rgba(139, 94, 43, 0.14);
+    background-color: aliceblue;
 }
 
 .tot1 {
@@ -52,6 +52,7 @@ header img {
     flex-direction: column;
     align-items: center;
     gap: 6px;
+    background-color: aliceblue;
 }
 
 .a30 {
@@ -64,7 +65,7 @@ header img {
 }
 
 .img {
-    
+
     grid-template-columns: repeat(3, 1fr);
     display: grid;
     justify-content: center;
@@ -77,11 +78,12 @@ header img {
     margin: 20px 5%;
     box-shadow: 0 8px 20px rgba(139, 94, 43, 0.14);
     padding: 20px;
+       background-color: aliceblue;
 }
 
 .im1 {
     width: 100%;
-  object-fit: cover;
+    object-fit: cover;
     height: 220px;
     border-radius: 8px;
     display: block;
@@ -95,7 +97,9 @@ header img {
     header.head h2 {
         font-size: 14px;
     }
-    .img{grid-template-columns: 1fr;
+
+    .img {
+        grid-template-columns: 1fr;
         margin: 15px 4%;
     }
 
@@ -110,4 +114,17 @@ header img {
     header.head h2 {
         font-size: 14px;
     }
+}
+
+footer {
+    background-color: rgb(236, 170, 83);
+    width: 0 0 50px 0;
+
+    text-align: center;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.whatsapp {
+    width: 40px;
 }
