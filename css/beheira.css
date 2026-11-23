@@ -173,4 +173,13 @@ footer {
         margin: 15px 4%;
         padding: 16px;
     }
+
+    .search {
+        background-color: aliceblue;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 20px;
+        color: black;
+    }
 }
