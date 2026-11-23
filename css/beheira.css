@@ -12,6 +12,7 @@ header.head {
     background-size: cover;
     background-position: center;
     font-size: 20px;
+   text-align: center;
 }
 
 .color {
@@ -154,14 +155,10 @@ footer {
 
     header.head h1 {
         font-size: 22px;
-        right: 5px;
-        top: 5px;
     }
 
     header.head h2 {
         font-size: 14px;
-        right: 5px;
-        top: 5px;
     }
 
     .search {
