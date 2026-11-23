@@ -110,25 +110,28 @@ footer {
     padding: 12px;
 }
 
-.search{
-position: fixed;
-left: 10px;
-top: 10px;
-font-size: 20px;
-border-radius: 10px;
-background-color: aliceblue;
-border-style:solid;
-border-width:2px;
-background-color: rgb(245, 214, 167) ;
-padding : 0 5px; ;
+.search {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(245, 214, 167);
+    padding: 0 5px;
+    ;
 }
-.search1{
+
+.search1 {
     padding: 10px;
     font-size: 10px;
     border-radius: 10px;
     box-sizing: border-box;
-    margin-bottom:5px ;
+    margin-bottom: 5px;
 }
+
 @media (max-width: 600px) {
     header.head h1 {
         font-size: 22px;
@@ -151,10 +154,14 @@ padding : 0 5px; ;
 
     header.head h1 {
         font-size: 22px;
+        right: 5px;
+        top: 5px;
     }
 
     header.head h2 {
         font-size: 14px;
+        right: 5px;
+        top: 5px;
     }
 
     .search {
