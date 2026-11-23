@@ -154,18 +154,6 @@ footer {
         font-size: 14px;
         text-align: center;
     }
-
-    .search {
-        font-size: 15px;
-        padding: 5px;
-    }
-
-    .search1 {
-        font-size: 15px;
-        padding: 6px 10px;
-        max-width: 170px;
-    }
-
     .bord {
         flex-direction: row;
         align-items: center;
