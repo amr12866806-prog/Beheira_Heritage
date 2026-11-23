@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Cairo', sans-serif;
-    background-color: rgb(236, 170, 83);
+    background-color: rgb(245, 214, 167);
 
 }
 
@@ -23,7 +23,8 @@ header.head {
 }
 
 .color2 {
-    color: rgb(236, 170, 83);
+    color: rgb(245, 214, 167);
+    font-size: 30px;
 }
 
 header img {
@@ -117,9 +118,7 @@ header img {
 }
 
 footer {
-    background-color: rgb(236, 170, 83);
-    width: 0 0 50px 0;
-
+    background-color: rgb(245, 214, 167);
     text-align: center;
     margin: 0;
     border-radius: 10px;
@@ -127,4 +126,11 @@ footer {
 
 .whatsapp {
     width: 40px;
+}
+.kk{
+    border-width: 2px ;
+    border-color: rgb(183, 183, 183); 
+    border-style: solid;
+    border-radius: 10px;
+    padding: 12px;
 }
