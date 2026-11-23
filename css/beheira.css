@@ -10,7 +10,7 @@ body {
     width: 80px;
 }
 
-.ti {
+.ti { 
     display: flex;
     justify-content: space-between;
     align-items: center;
