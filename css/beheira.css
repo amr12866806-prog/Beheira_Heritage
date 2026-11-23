@@ -117,25 +117,12 @@ footer {
 }
 
 .search {
-    position: fixed;
-    left: 10px;
-    top: 10px;
-    font-size: 20px;
-    border-radius: 10px;
     background-color: aliceblue;
-    border-style: solid;
-    border-width: 2px;
-    background-color: rgb(245, 214, 167);
-    padding: 0 5px;
-
-}
-
-.search1 {
+    text-decoration: none;
+    border-radius: 15px;
     padding: 10px;
-    font-size: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-bottom: 5px;
+    font-size: 20px;
+    color: black;
 }
 
 @media (max-width: 600px) {
