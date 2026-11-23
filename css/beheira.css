@@ -5,6 +5,8 @@ body {
     background-color: rgb(245, 214, 167);
 
 }
+.logo{
+}
 
 header.head {
     background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../Img/header.jpeg");
@@ -26,6 +28,7 @@ header.head {
     color: rgb(245, 214, 167);
     font-size: 30px;
 }
+
 
 header img {
     max-width: 100px;
