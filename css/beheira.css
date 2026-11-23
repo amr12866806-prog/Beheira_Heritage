@@ -9,7 +9,6 @@ body {
     background-color: rgb(230, 230, 229);
     width: 80px;
     height: 80px;
-    max-width: 100px;
 }
 
 .ti { 
@@ -17,6 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 12px 5%;
+    
 }
 
 header.head {
@@ -25,6 +25,7 @@ header.head {
     background-position: center;
     font-size: 20px;
     text-align: center;
+    height: 400px;
 }
 
 .color {
