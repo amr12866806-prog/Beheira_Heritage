@@ -162,7 +162,7 @@ padding : 0 5px; ;
     }
 
     .bord {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 16px;
         margin: 15px 4%;
