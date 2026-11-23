@@ -8,6 +8,7 @@ body {
 .logo {
     background-color: rgb(230, 230, 229);
     width: 80px;
+    height: 80px;
 }
 
 .ti { 
